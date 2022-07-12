@@ -5,6 +5,13 @@ import csv
 def normalize_space(s):
     return ' '.join(s.split())
 
+def isfloat(s):
+  try : 
+     float(s)
+     return True
+  except :
+     return False
+
 absolute_path = open(r'output_files/ALU.map.rpt', 'r')
 contents = absolute_path.read()
 
@@ -27,7 +34,7 @@ replaced_list = [normalize_space(i) for i in out_list]
 row = []
 column = []
 for i in replaced_list:
-    if(i.isdigit() or isinstance(i,float)):
+    if(i.isdigit() or isfloat(i)):
        column.append(i)
     elif (i == "op[0]"):
         column.append(i)
