@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at ALU.v(3): object "OP" differs only in case from object "op" in the same scope File: /home/anna/intelFPGA_lite/20.1/quartus/tasks/task1/ALU.v Line: 3

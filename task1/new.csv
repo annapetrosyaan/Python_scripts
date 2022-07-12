@@ -1,0 +1,2 @@
+Total logic elements,Combinational with no register,Register only,Combinational with a register,4 input functions,3 input functions,2 input functions,1 input functions,0 input functions,normal mode,arithmetic mode,qfbk mode,register cascade mode,synchronous clear/load mode,asynchronous clear/load mode,Total registers,Total logic cells in carry chains,I/O pins,Maximum fanout node,Maximum fanout,Total fanout,Average fanout,2.67
+283,283,0,0,87,123,36,37,0,176,107,0,0,0,0,0,137,29,op[0],26,834
